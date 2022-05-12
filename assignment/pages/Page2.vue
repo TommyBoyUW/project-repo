@@ -1,5 +1,6 @@
 <template>
   <div class="page2">
+     <HeaderNav />
 <h1 class="text-center">Speech Therapy</h1>
 
 <hr class="featurette-divider">

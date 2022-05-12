@@ -1,5 +1,6 @@
 <template>
   <div class="page4">
+     <HeaderNav />
     <h1 class="text-center">Literacy Activities</h1>
 
   <hr class="featurette-divider">
