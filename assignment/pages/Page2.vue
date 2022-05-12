@@ -25,7 +25,7 @@
     data () {
       return {
         lessons: [
-          { id: 0, picture: require('../static/spring-vocab.JPG'), title: 'Firefly and Jar Prepositions', alt: 'Prepositions', description: 'Target spatial concepts using 14 prepositions (positional words) with these firefly (lightning bug) and jar themed prepositional or positional phrase task cards, clip cards, puzzles, and sentence. ' },
+          { id: 0, picture: require('../static/spring-vocab.jpg'), title: 'Firefly and Jar Prepositions', alt: 'Prepositions', description: 'Target spatial concepts using 14 prepositions (positional words) with these firefly (lightning bug) and jar themed prepositional or positional phrase task cards, clip cards, puzzles, and sentence. ' },
           { id: 1, picture: require('../static/rainyday.jpg'), title: 'Summer Digital Activity', alt: 'Activities, Homework, Printables',  description: 'Save time and have fun with this free digital Would You Rather: Summer Edition resource. Students will have fun deciding which summer activity, food, and place they prefer and why' },
           { id: 2, picture: require('../static/shark.jpg'), title: 'Summer Pairs', alt: 'PreK, Homeschool, Kindergarten',  description: 'Target relational vocabulary, word associations, describing vocabulary, sorting items into categories, and inference clues while playing bingo with these summer themed language activities ' },
           { id: 3, picture: require('../static/pirate.jpg'), title: 'There Was an Old Lady', alt: 'English Language Arts, Speech Therapy,',  description: 'This Mini Book Companion Bundle will take you through the whole school year' },
