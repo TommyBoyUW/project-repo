@@ -1,5 +1,6 @@
 <template>
    <div class="index">
+   <HeaderNav />
    <div class="text-center">
       <h2 class="mt-3">Speech joke of the day</h2>
     <div v-if="myToggle === false">

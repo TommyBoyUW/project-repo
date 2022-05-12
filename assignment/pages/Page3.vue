@@ -1,6 +1,6 @@
 <template>
-
   <div class="page3">
+   <HeaderNav />
   <div class="text-center">
   <h1>Language Tools</h1>
   <p><strong>Pediatric Speech-Language Pathologist </strong> - creating Speech, Language, and Literacy Resources for the classroom, speech therapy, and language therapy.</p>
