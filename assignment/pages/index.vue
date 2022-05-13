@@ -122,10 +122,18 @@ components: {
         })},
 
 
-    head () {
-      return {
-        title: this.title,
-      }},
+        head() {
+             return {
+               title: this.title,
+               meta: [
+                 // hid is used as unique identifier. Do not use `vmid` for it as it will not work
+                 {
+                   hid: 'description',
+                   name: 'speech lessons homepage',
+                   content: 'Target spatial concepts using 14 prepositions (positional words) with these firefly (lightning bug) and jar themed prepositional or positional phrase task cards, clip cards, puzzles, and sentence strip activity. '
+                 }
+               ]
+             }},
 
 
      computed: {
