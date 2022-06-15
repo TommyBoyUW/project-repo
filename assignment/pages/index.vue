@@ -1,43 +1,30 @@
 <template>
    <div class="index">
    <HeaderNav />
-   <div class="text-center">
-      <h2 class="mt-3">Speech joke of the day</h2>
-    <div v-if="myToggle === false">
-        What fruit do people in Maine like to eat?
-    </div>
-    <div v-else>
-        A Mango!
-    </div><br>
-        <b-button :pressed.sync="myToggle" variant="primary" size="lg">Answer</b-button>
-    </div>
 
-
-<hr class="my-4">
 
       <div class="jumbotron text-center" bg-variant="info">
         <div class="container" bg-variant="info">
-        <b-jumbotron header="Speech, Language, and Literacy" lead="Creating Speech, Language, and Literacy Resources for the classroom, speech therapy and language therapy.">
-          <div class="card text-center" bg-variant="info" id="homeFeature">
-            <div class="card-body" bg-variant="info">
-            <div v-if="show" bg-variant="info">
-              <div class="container" v-if="items" text-center>
-                <callAPI
-                  v-for="item of items"
-                  :key="item.author"
-                  :item="item"
-                 />
-                <a href="NewsAPI.org" bg-variant="info">Powered by News API</a>
-              </div>
-            </div>
-            <button v-else v-on:click="show = !show" class="btn btn-primary" data-toggle="tooltip" data-placement="right" bg-variant="info">Click for latest articles</button>
-            </div>
-            </div>
+        <b-jumbotron header="What is an SLP?" >
+<br>
+        <p class="lead text-left"> Speech-Language Pathologists (SLPs) work to prevent, evaluate, diagnose, and treat speech, language, social communication, cognitive-communication, and swallowing disorders in both children and adults. In addition, SLPs provide training and education to families, caregivers, and other professionals. SLPs work collaboratively with professionals from many other disciplines including Occupational Therapy and Physical Therapy."</p>
+<br><br>
+<p class="lead text-left">SLPs work in a variety of settings including:<br>
+•	Early Intervention<br>
+•	Preschools<br>
+•	K-12 Schools<br>
+•	Hospitals<br>
+•	Private Clinics<br>
+•	Outpatient Clinics<br>
+•	Residential Health Care Facilities<br>
+Source:  www.asha.org
+</p>
+
         </b-jumbotron>
       </div>
       </div>
 
-<hr class="my-4">
+
 
     <div class="container text-center">
         <div class="row">
@@ -94,9 +81,9 @@ components: {
 
 
     jumbo: [
-      { id: 0, title: 'Speech', text: 'Speech is how we say sounds and words.', page: 'page2' },
-      { id: 1, title: 'Language', text: 'Language refers to the words we use and how we use them to share ideas and get what we want.', page: 'page3'},
-      { id: 2, title: 'Literacy', text: 'Literacy is your ability to read and write.', page: 'page4'}
+      { id: 0, title: 'Speech', text: 'Speech is how we produce sounds and words when communicating.  Speech includes articulation, voice, and fluency.', page: 'page2' },
+      { id: 1, title: 'Language', text: 'Language includes what we say (expressive language) and what we understand (receptive language).', page: 'page3'},
+      { id: 2, title: 'Literacy', text: 'Literacy is the ability to read and write.  Phonemic awareness, phonics, fluency, vocabulary, and comprehension skills are essential to literacy development.', page: 'page4'}
      ],
     }
     },
@@ -106,7 +93,7 @@ components: {
       console.log("")
       axios
         .get('https://newsapi.org/v2/everything?' +
-        'q=speech+language+literacy&' +
+        'q=speech+language+pathology&' +
         'sortBy=relevancy&' +
         'pageSize=5&' +
         'apiKey=d1fccf2b122847bc8641ef6a7ee8972a',
