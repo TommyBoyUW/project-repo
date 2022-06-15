@@ -10,7 +10,7 @@
     <b-nav-item class="bar" href="https://sarahctheslp.com">Store</b-nav-item>
     </b-navbar-nav>
     </b-navbar>
-    <img src="../static/1.png" class="img-fluid mx-auto d-block" width="100%">
+    <img src="../static/1200header.png" class="img-fluid mx-auto d-block" width="100%">
     </nav>
   </div>
 </template>

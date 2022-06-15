@@ -1,9 +1,39 @@
 <template>
   <div class="page4">
      <HeaderNav />
-    <h1 class="text-center">Literacy Activities</h1>
 
-  <hr class="featurette-divider">
+
+
+     <div class="jumbotron text-center" bg-variant="info">
+       <div class="container" bg-variant="info">
+       <b-jumbotron header="What is Literacy?" >
+     <br>
+       <p class="lead text-left">Literacy is the ability to read and write.  Phonemic awareness, phonics, fluency, vocabulary, and comprehension skills are essential to literacy development.</p>
+     <br>
+
+
+     <p class="display-4">Phonemic Awareness</p>
+     <p class="lead text-left">This is the ability to identify and manipulate the phonemes, or sounds, in words.</p>
+
+     <p class="display-4">Phonics</p>
+     <p class="lead text-left">Phonics instruction includes teaching how letters correspond to sounds and how to use letters in reading and writing.</p>
+
+     <p class="display-4">Reading Fluency</p>
+     <p class="lead text-left">This refers to the ability to decode (or read) words accurately, quickly, and with proper expression.<br>
+
+     <p class="display-4">Vocabulary</p>
+     <p class="lead text-left">Readers must have a store knowledge of vocabulary words to retrieve meaning as they read.</p><br>
+
+     <p class="display-4">Reading Comprehension</p>
+     <p class="lead text-left">Reading comprehension is the goal of learning to read. The mastery of each of the four previous skills leads to comprehension. <br>
+
+     Source:  www.asha.org
+
+     </p>
+
+       </b-jumbotron>
+     </div>
+     </div>
 
 
   <div class="container">
